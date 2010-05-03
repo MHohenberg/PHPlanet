@@ -1,0 +1,21 @@
+* Everything ;) More specifically
+
+1. get the thing to read CSS files, either by a cron-like process
+   or by fetching feeds "on the fly".
+
+2. show the feeds in a nice, smart(y) way.
+2.1 either in full length, or up to a specific length.
+2.1.1 allow the Administrator to specify feeds that override that 
+      setting, e.g. show all content for blog A while all others
+      are cut at 3 sentences and vice versa.
+2.2 with using rel="noref"
+2.2.1 ... the administrator can override this for specific blogs
+
+
+3. Analyze blogs and make a tag cloud for specific keywords
+3.1 ... where the keywords can be either created on-the-fly or put together
+	by the Administrator
+3.2 ... where there can be "badwords" that do not appear under any 
+	circumstances
+
+
