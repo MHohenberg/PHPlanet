@@ -1,0 +1,17 @@
+{include file="header.tpl.html"}
+
+{foreach from=$entries item=entry}
+<div class="entry">
+<h2><a href="{$entry.url}" rel="">{$entry.title}</a></h2>
+{$entry.content}	
+</div>
+{foreachelse}
+
+<div class="entry">
+<h2>A barren, dead planet in a space full of life</h2>
+No signs of activity on this planet, captain. May I suggest you 
+add some RSS feeds to terraform it to a new, thriving ecosystem?
+</div>
+{/foreach}
+
+{include file="footer.tpl.html"}
