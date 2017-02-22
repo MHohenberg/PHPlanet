@@ -6,4 +6,3 @@ $seite = new Smarty();
 
 $seite->display("index.tpl.html");
 
-?>
